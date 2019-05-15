@@ -3,14 +3,14 @@ https://auth0.com/blog/developing-restful-apis-with-lumen/
 https://medium.com/tech-tajawal/jwt-authentication-for-lumen-5-6-2376fd38d454
 
 https://github.com/barryvdh/laravel-cors
-
 https://stackoverflow.com/questions/34476817/lumen-enable-cors
-
 https://gist.github.com/danharper/06d2386f0b826b669552
-
 https://stackoverflow.com/questions/46996130/lumen-api-cors-ajax-405-method-not-allowed
-
 https://thewebtier.com/laravel/handle-cors-requests-vuejs-client-laravel-api/
+https://stackoverflow.com/questions/49124228/showing-mysql-error-for-db-class-in-laravel
+
+// creating index
+ALTER TABLE `straw`.`user_notification_settings` ADD INDEX `userId` (`id`);
 
 // CORS ISSUE
 https://stackoverflow.com/questions/46996130/lumen-api-cors-ajax-405-method-not-allowed/47012740#47012740
@@ -50,9 +50,11 @@ Model created successfully.
 Created Migration: 2017_06_03_150652_create_modelnames_table
 Controller created successfully.
 
+countryId
+
 
 https://pusher.com/tutorials/web-notifications-laravel-pusher-channels
-
 https://quickadminpanel.com/blog/list-of-16-artisan-make-commands-with-parameters/
-
 https://github.com/davibennun/laravel-push-notification
+
+update `polls` set published_at = '2019-05-13 08:04:33', created_at = '2019-05-13 08:04:33', updated_at = '2019-05-13 08:04:33'
