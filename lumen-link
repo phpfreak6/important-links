@@ -8,6 +8,7 @@ https://gist.github.com/danharper/06d2386f0b826b669552
 https://stackoverflow.com/questions/46996130/lumen-api-cors-ajax-405-method-not-allowed
 https://thewebtier.com/laravel/handle-cors-requests-vuejs-client-laravel-api/
 https://stackoverflow.com/questions/49124228/showing-mysql-error-for-db-class-in-laravel
+https://stackoverflow.com/questions/44815838/laravel-lumen-mail-and-amazon-ses-500-internal-server-error-on-ubuntu-server-pr
 
 // creating index
 ALTER TABLE `straw`.`user_notification_settings` ADD INDEX `userId` (`id`);
@@ -57,4 +58,6 @@ https://pusher.com/tutorials/web-notifications-laravel-pusher-channels
 https://quickadminpanel.com/blog/list-of-16-artisan-make-commands-with-parameters/
 https://github.com/davibennun/laravel-push-notification
 
-update `polls` set published_at = '2019-05-13 08:04:33', created_at = '2019-05-13 08:04:33', updated_at = '2019-05-13 08:04:33'
+https://stackoverflow.com/questions/39335363/fcm-notification-in-ios-doesnt-play-sound-when-received
+
+update `polls` set published_at = '2019-05-22 08:27:08', created_at = '2019-05-22 08:27:08', updated_at = '2019-05-22 08:27:08'
