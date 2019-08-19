@@ -1,0 +1,42 @@
+http://ksat.me/
+
+http://devblog.me/wtf-mongo
+
+https://www.infoq.com/articles/Starting-With-MongoDB/
+
+
+https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1
+
+https://blog.cloudboost.io/everything-you-need-to-know-about-mongoose-63fcf8564d52
+
+https://ma.ttias.be/mariadb-json-datatype-supported-10-2/
+
+https://scotch.io/tutorials/working-with-json-in-mysql
+
+https://chartio.com/resources/tutorials/understanding-strorage-sizes-for-mysql-text-data-types/
+
+https://www.cumulations.com/blogs/87/how-to-send-push-notifications-in-php-to-ios-devices-using-fcm
+
+https://www.monitis.com/blog/101-tips-to-mysql-tuning-and-optimization/
+
+https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows
+
+https://gist.github.com/prime31/5675017
+
+https://gist.github.com/joashp/b2f6c7e24127f2798eb2
+
+https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
+
+http://jasonwatmore.com/post/2018/11/07/angular-7-reactive-forms-validation-example
+
+https://stackoverflow.com/questions/22739455/htaccess-redirect-for-angular-routes
+
+
+// angular htaccess
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^(.*) /index.html [NC,L]
