@@ -68,3 +68,8 @@ $queries    = DB::getQueryLog();
 $lastQuery = end($queries);
 
 Log::info($lastQuery);
+
+
+
+// READ LOGS
+tail -f laravel.log
