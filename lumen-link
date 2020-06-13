@@ -16,6 +16,9 @@ ALTER TABLE `straw`.`user_notification_settings` ADD INDEX `userId` (`id`);
 // CORS ISSUE
 https://stackoverflow.com/questions/46996130/lumen-api-cors-ajax-405-method-not-allowed/47012740#47012740
 
+// THIS IS MORE FEASIBLE
+php artisan make:model Todo -a
+
 php artisan make:migration create_users_table
 php artisan migrate:refresh
 
