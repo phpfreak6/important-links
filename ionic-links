@@ -5,5 +5,8 @@ https://capacitorjs.com/docs/android/troubleshooting
 https://javatutorial.net/connect-android-device-android-studio
 
 
+TUTORIALS
+https://www.joshmorony.com/topics/capacitor-tutorials/
+
 CMD
 ionic capacitor build android --prod --release
