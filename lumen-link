@@ -78,3 +78,6 @@ Log::info($lastQuery);
 
 // READ LOGS
 tail -f laravel.log
+
+
+https://stackoverflow.com/questions/60268308/laravel-6-throttle-password-reset
