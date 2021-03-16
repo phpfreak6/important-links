@@ -19,3 +19,8 @@ chrome://flags/#allow-insecure-localhost
 https://medium.com/@saleemmalikraja/testing-service-workers-in-you-local-with-self-signed-certificate-angular-4f447c33d6fc
 
 https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows
+
+
+ng g module [module-name] --routing 
+or 
+ng g m [module-name] --routing
