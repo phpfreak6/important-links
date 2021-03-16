@@ -20,7 +20,10 @@ https://medium.com/@saleemmalikraja/testing-service-workers-in-you-local-with-se
 
 https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows
 
+Bootstrap not working properly in Angular 6
+https://stackoverflow.com/questions/52676474/bootstrap-not-working-properly-in-angular-6/52676543
 
 ng g module [module-name] --routing 
 or 
 ng g m [module-name] --routing
+
