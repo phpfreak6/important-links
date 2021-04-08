@@ -32,6 +32,8 @@ php artisan migrate:fresh
 
 php artisan migrate:fresh --seed
 
+https://www.larashout.com/using-soft-delete-in-laravel-eloquent-models
+
 php artisan make:migration create_rel_user_countries_table
 
 composer dump-autoload -o
