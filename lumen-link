@@ -83,3 +83,18 @@ tail -f laravel.log
 
 
 https://stackoverflow.com/questions/60268308/laravel-6-throttle-password-reset
+
+
+
+
+
+In my opinion how you are approaching it is fine:
+
+response is the full response object via axios
+response.data is the full response body that was returned
+response.data.data is the data node of the response body that was returned
+Some suggestions:
+
+instead of using success in your response, that can be implied from the returned status code: anything within 200-299 is successful, anything 300-399 is a redirect, anything 400-499 is a client error, and anything 500+ is a server error (see here)
+instead of using data in the instance of an error, in my opinion that node should be reserved for successful data and a node such as errors should be used instead
+your sendError method should default to a status code of 500 instead of 200, as 200 is a successful status code
