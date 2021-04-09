@@ -543,3 +543,12 @@ module.exports = class UsersController {
 EXAMPLE CRUD ENDS
 ==============================================================================================================================================================================
 
+https://zetcode.com/javascript/sequelize/
+
+let result = await Instruments.findAll({
+                attributes: ['id', 'instrument_token', 'exchange_token', 'tradingsymbol', 'name', '	last_price', 'expiry', 'strike', 'tick_size', 'lot_size', 'instrument_type', 'segment', 'exchange', 'createdAt', 'updatedAt', '	deletedAt'],
+                offset: 0, 
+                limit: 10,
+                order: [['id', 'DESC']],
+                raw: true 
+            });
