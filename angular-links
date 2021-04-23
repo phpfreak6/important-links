@@ -27,3 +27,41 @@ ng g module [module-name] --routing
 or 
 ng g m [module-name] --routing
 
+
+
+**********************************************************************************************************************************
+angular httpclient send FORM-DATA
+insertCoupon( in_data ):Observable<any>{
+
+    let formData: FormData = new FormData(); 
+    formData.append('coupon_name', in_data.coupon_name); 
+    formData.append('coupon_code', in_data.coupon_code);
+    
+    return this.httpClient.post( 
+      `${this.apiEndPoint}`, 
+      formData,
+      )
+      .pipe(
+        map((e:Response)=> e),
+        catchError((e:Response)=> throwError(e))
+      );
+  }
+**********************************************************************************************************************************
+
+angular httpclient send x-www-form-urlencoded
+insertCoupon( in_data ):Observable<any>{
+
+    let body = new HttpParams()
+    .set('coupon_name', in_data.coupon_name) 
+    .set('coupon_code', in_data.coupon_code);
+    
+    return this.httpClient.post( 
+      `${this.apiEndPoint}`, 
+      body,
+      )
+      .pipe(
+        map((e:Response)=> e),
+        catchError((e:Response)=> throwError(e))
+      );
+  }
+**********************************************************************************************************************************
